@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/Angelillo15/MinecraftPurpleTheme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/LyroxStreaming/MinecraftPurpleTheme/main/repair.sh)
 }
 
 restoreBackUp(){
@@ -60,11 +60,11 @@ restoreBackUp(){
     yarn build:production
     sudo php artisan optimize:clear
 }
-echo "Copyright (c) 2022 Angelillo15 | angelillo15.es"
+echo "Copyright (c) 2023 LionHeart Hostings | LYROX"
 echo "This program is free software: you can redistribute it and/or modify"
 echo ""
-echo "Discord: https://discord.angelillo15.es/"
-echo "Website: https://angelillo15.es/"
+echo "Discord: https://discord.gg/cCywrRpYUY"
+echo "Website: https://lionheartpanel.duckdns.org/"
 echo ""
 echo "[1] Install theme"
 echo "[2] Restore backup"
